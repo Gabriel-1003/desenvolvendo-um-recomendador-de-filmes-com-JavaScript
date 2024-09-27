@@ -7,8 +7,8 @@ function setup() {
   createElement("h2", "@rasinformática");
   createSpan("Sua idade:");
   campoIdade = createInput("5");
-  campoFantasia = createCheckbox("Gosta de filmes com Qi alto?");
-  campoAventura = createCheckbox("Gosta de filme sobre sistemas?");
+  campoFantasia = createCheckbox("Gosta de jogar futebol?");
+  campoAventura = createCheckbox("Gosta de futebol?");
 }
 
 function draw() {
@@ -27,11 +27,11 @@ function draw() {
 function geraRecomendacao(idade, gostaDeFantasia, gostaDeAventura) {
   if (idade >= 10) {
     if (idade >= 14) {
-      return "Rafael, Fabiula, Maria Helena, Isabel";
+      return "Gabriel ";
     } else {
       if (idade >= 12) {
         if(gostaDeFantasia || gostaDeAventura) {
-          return "Github-professor-rafael";          
+          return "Github-Gabriel-1003";          
         } else{
          return "Programando com html e css";
         }
