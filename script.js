@@ -33,13 +33,13 @@ function geraRecomendacao(idade, gostaDeFantasia, gostaDeAventura) {
         if(gostaDeFantasia || gostaDeAventura) {
           return "Github-Gabriel-1003";          
         } else{
-         return "Programando com html e css";
+         return "tem muitos jogadores bons";
         }
       } else {
         if (gostaDeFantasia) {
-          return "Tele hackers";
+          return "e outros nem tanto";
         } else {
-          return "Nenhum sistema é 100% seguro";
+          return "por falta de treino";
         }
       }
     }
@@ -47,7 +47,7 @@ function geraRecomendacao(idade, gostaDeFantasia, gostaDeAventura) {
     if (gostaDeFantasia) {
       return "@rasinformática";
     } else {
-      return "Todo Hacker tem um início";
+      return "todos tem seu inicio";
     }
   }
 }
