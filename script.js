@@ -37,7 +37,7 @@ function geraRecomendacao(idade, gostaDeFantasia, gostaDeAventura) {
         }
       } else {
         if (gostaDeFantasia) {
-          return "e outros nem tanto";
+          return "mais outros nem tanto";
         } else {
           return "por falta de treino";
         }
